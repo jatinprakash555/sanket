@@ -2,13 +2,13 @@
   "metadata": {
     "system": "SANKET Autonomous Git File Database Manager",
     "version": "1.0.0",
-    "last_updated": "2026-10-27T05:22:38.662894",
+    "last_updated": "2026-10-27T11:44:06.771Z",
     "total_districts": 29,
-    "total_reports": 3,
+    "total_reports": 4,
     "total_alerts": 0,
     "retention_policy": "Auto-managed to max 200 recent entries",
     "storage_mode": "100% Native GitHub Repository Storage (Zero External DB)",
-    "db_size_kb": "42.92 KB"
+    "db_size_kb": "42.90 KB"
   },
   "districts": {
     "delhi": {
@@ -21,24 +21,24 @@
       "calculated_score": 91.2,
       "risk_level": "CRITICAL",
       "temperature_3day_avg": 45.4,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 28.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 28,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 45.4\u00b0C",
+        "Baseline summer temperature 45.4°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 45.4\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 45.4°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -69,24 +69,24 @@
       "calculated_score": 96.8,
       "risk_level": "CRITICAL",
       "temperature_3day_avg": 48.6,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 18.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 18,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 48.6\u00b0C",
+        "Baseline summer temperature 48.6°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 48.6\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 48.6°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -117,24 +117,24 @@
       "calculated_score": 93.4,
       "risk_level": "CRITICAL",
       "temperature_3day_avg": 47.5,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 22.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 22,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 47.5\u00b0C",
+        "Baseline summer temperature 47.5°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 47.5\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 47.5°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -165,24 +165,24 @@
       "calculated_score": 79.5,
       "risk_level": "HIGH",
       "temperature_3day_avg": 44.2,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 30.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 30,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 44.2\u00b0C",
+        "Baseline summer temperature 44.2°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 44.2\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 44.2°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -213,24 +213,24 @@
       "calculated_score": 90.5,
       "risk_level": "CRITICAL",
       "temperature_3day_avg": 46.2,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 24.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 24,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 46.2\u00b0C",
+        "Baseline summer temperature 46.2°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 46.2\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 46.2°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -261,24 +261,24 @@
       "calculated_score": 74.5,
       "risk_level": "HIGH",
       "temperature_3day_avg": 43.5,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 32.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 32,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 43.5\u00b0C",
+        "Baseline summer temperature 43.5°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 43.5\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 43.5°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -306,27 +306,27 @@
       "lat": 25.4358,
       "lon": 81.8463,
       "population": 5954391,
-      "calculated_score": 93.0,
+      "calculated_score": 93,
       "risk_level": "CRITICAL",
       "temperature_3day_avg": 46.8,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 31.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 31,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 46.8\u00b0C",
+        "Baseline summer temperature 46.8°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 46.8\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 46.8°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -356,25 +356,25 @@
       "population": 4589838,
       "calculated_score": 78.2,
       "risk_level": "HIGH",
-      "temperature_3day_avg": 44.0,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 40.0,
+      "temperature_3day_avg": 44,
+      "rainfall_mm": 0,
+      "humidity_pct": 40,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 44.0\u00b0C",
+        "Baseline summer temperature 44.0°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 44.0\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 44.0°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -405,24 +405,24 @@
       "calculated_score": 88.6,
       "risk_level": "CRITICAL",
       "temperature_3day_avg": 45.8,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 35.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 35,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 45.8\u00b0C",
+        "Baseline summer temperature 45.8°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 45.8\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 45.8°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -450,27 +450,27 @@
       "lat": 25.5941,
       "lon": 85.1376,
       "population": 5838465,
-      "calculated_score": 77.0,
+      "calculated_score": 77,
       "risk_level": "HIGH",
       "temperature_3day_avg": 43.8,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 45.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 45,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 43.8\u00b0C",
+        "Baseline summer temperature 43.8°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 43.8\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 43.8°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -498,27 +498,27 @@
       "lat": 21.1458,
       "lon": 79.0882,
       "population": 4653570,
-      "calculated_score": 92.0,
+      "calculated_score": 92,
       "risk_level": "CRITICAL",
       "temperature_3day_avg": 46.5,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 26.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 26,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 46.5\u00b0C",
+        "Baseline summer temperature 46.5°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 46.5\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 46.5°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -549,24 +549,24 @@
       "calculated_score": 94.5,
       "risk_level": "CRITICAL",
       "temperature_3day_avg": 47.2,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 25.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 25,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 47.2\u00b0C",
+        "Baseline summer temperature 47.2°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 47.2\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 47.2°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -594,27 +594,27 @@
       "lat": 23.0225,
       "lon": 72.5714,
       "population": 5577940,
-      "calculated_score": 83.0,
+      "calculated_score": 83,
       "risk_level": "CRITICAL",
       "temperature_3day_avg": 44.8,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 38.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 38,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 44.8\u00b0C",
+        "Baseline summer temperature 44.8°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 44.8\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 44.8°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -645,24 +645,24 @@
       "calculated_score": 73.5,
       "risk_level": "HIGH",
       "temperature_3day_avg": 36.5,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 78.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 78,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 36.5\u00b0C",
+        "Baseline summer temperature 36.5°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 36.5\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 36.5°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -693,24 +693,24 @@
       "calculated_score": 76.5,
       "risk_level": "HIGH",
       "temperature_3day_avg": 40.2,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 72.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 72,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 40.2\u00b0C",
+        "Baseline summer temperature 40.2°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 40.2\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 40.2°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -736,29 +736,29 @@
       "name": "Jharsuguda",
       "headquarters": "Jharsuguda, Odisha",
       "lat": 21.85,
-      "lon": 84.0,
+      "lon": 84,
       "population": 579505,
-      "calculated_score": 88.0,
+      "calculated_score": 88,
       "risk_level": "CRITICAL",
       "temperature_3day_avg": 45.5,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 38.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 38,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 45.5\u00b0C",
+        "Baseline summer temperature 45.5°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 45.5\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 45.5°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -786,27 +786,27 @@
       "lat": 20.7107,
       "lon": 83.4862,
       "population": 1648997,
-      "calculated_score": 91.0,
+      "calculated_score": 91,
       "risk_level": "CRITICAL",
       "temperature_3day_avg": 46.2,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 36.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 36,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 46.2\u00b0C",
+        "Baseline summer temperature 46.2°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 46.2\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 46.2°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -834,27 +834,27 @@
       "lat": 21.4669,
       "lon": 83.9812,
       "population": 1041099,
-      "calculated_score": 82.0,
+      "calculated_score": 82,
       "risk_level": "CRITICAL",
       "temperature_3day_avg": 44.8,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 40.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 40,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 44.8\u00b0C",
+        "Baseline summer temperature 44.8°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 44.8\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 44.8°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -884,9 +884,9 @@
       "population": 2251673,
       "calculated_score": 54.7,
       "risk_level": "MODERATE",
-      "temperature_3day_avg": 29.8,
-      "rainfall_mm": 21.4,
-      "humidity_pct": 68.0,
+      "temperature_3day_avg": 24.7,
+      "rainfall_mm": 0.1,
+      "humidity_pct": 94,
       "frontline_fever_cases": 11,
       "total_frontline_cases": 11,
       "shap_reasons": [
@@ -895,7 +895,7 @@
       "shap_impacts": [
         {
           "feature": "Frontline Syndromic Spike",
-          "impact_percentage": 24.0,
+          "impact_percentage": 24,
           "description": "11 confirmed ground cases reported by ASHA/ANM workers",
           "direction": "increase"
         }
@@ -914,11 +914,11 @@
           "category": "Administration"
         }
       ],
-      "last_evaluated": "2026-10-27T05:22:38.662894",
+      "last_evaluated": "2026-10-27T11:44:06.771Z",
       "active_model": "ensemble",
       "model_breakdown": {
         "ensemble_score": 54.7,
-        "concordance_pct": 85.0,
+        "concordance_pct": 85,
         "active_model_key": "ensemble",
         "xgboost": {
           "name": "XGBoost Thermal Extreme Engine",
@@ -930,7 +930,7 @@
         },
         "syndromic": {
           "name": "LightGBM Syndromic Velocity Detector",
-          "score": 76.0,
+          "score": 76,
           "weight": 0.35,
           "latency_ms": 7.8,
           "focus_domain": "Frontline Case Spike & Cluster Acceleration",
@@ -960,24 +960,24 @@
       "calculated_score": 52.4,
       "risk_level": "MODERATE",
       "temperature_3day_avg": 41.2,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 65.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 65,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 41.2\u00b0C",
+        "Baseline summer temperature 41.2°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 41.2\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 41.2°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -1008,24 +1008,24 @@
       "calculated_score": 80.5,
       "risk_level": "CRITICAL",
       "temperature_3day_avg": 44.2,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 42.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 42,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 44.2\u00b0C",
+        "Baseline summer temperature 44.2°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 44.2\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 44.2°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -1056,24 +1056,24 @@
       "calculated_score": 72.5,
       "risk_level": "HIGH",
       "temperature_3day_avg": 43.1,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 55.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 55,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 43.1\u00b0C",
+        "Baseline summer temperature 43.1°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 43.1\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 43.1°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -1101,27 +1101,27 @@
       "lat": 19.8135,
       "lon": 85.8312,
       "population": 1698730,
-      "calculated_score": 38.0,
+      "calculated_score": 38,
       "risk_level": "MODERATE",
-      "temperature_3day_avg": 38.0,
+      "temperature_3day_avg": 38,
       "rainfall_mm": 2.5,
-      "humidity_pct": 78.0,
+      "humidity_pct": 78,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 38.0\u00b0C",
+        "Baseline summer temperature 38.0°C",
         "Precipitation deficit: 2.5mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 38.0\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 38.0°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -1152,24 +1152,24 @@
       "calculated_score": 48.5,
       "risk_level": "MODERATE",
       "temperature_3day_avg": 40.2,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 66.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 66,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 40.2\u00b0C",
+        "Baseline summer temperature 40.2°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 40.2\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 40.2°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -1197,27 +1197,27 @@
       "lat": 18.7557,
       "lon": 79.5126,
       "population": 795332,
-      "calculated_score": 94.0,
+      "calculated_score": 94,
       "risk_level": "CRITICAL",
-      "temperature_3day_avg": 47.0,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 32.0,
+      "temperature_3day_avg": 47,
+      "rainfall_mm": 0,
+      "humidity_pct": 32,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 47.0\u00b0C",
+        "Baseline summer temperature 47.0°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 47.0\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 47.0°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -1245,27 +1245,27 @@
       "lat": 17.385,
       "lon": 78.4867,
       "population": 6809970,
-      "calculated_score": 75.0,
+      "calculated_score": 75,
       "risk_level": "HIGH",
       "temperature_3day_avg": 43.2,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 42.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 42,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 43.2\u00b0C",
+        "Baseline summer temperature 43.2°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 43.2\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 43.2°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -1293,27 +1293,27 @@
       "lat": 16.5062,
       "lon": 80.648,
       "population": 2218591,
-      "calculated_score": 89.0,
+      "calculated_score": 89,
       "risk_level": "CRITICAL",
       "temperature_3day_avg": 45.2,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 58.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 58,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 45.2\u00b0C",
+        "Baseline summer temperature 45.2°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 45.2\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 45.2°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -1341,27 +1341,27 @@
       "lat": 13.0827,
       "lon": 80.2707,
       "population": 7088000,
-      "calculated_score": 78.0,
+      "calculated_score": 78,
       "risk_level": "HIGH",
       "temperature_3day_avg": 41.8,
-      "rainfall_mm": 0.0,
-      "humidity_pct": 70.0,
+      "rainfall_mm": 0,
+      "humidity_pct": 70,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 41.8\u00b0C",
+        "Baseline summer temperature 41.8°C",
         "Precipitation deficit: 0.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 41.8\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 41.8°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -1389,27 +1389,27 @@
       "lat": 12.9716,
       "lon": 77.5946,
       "population": 9621551,
-      "calculated_score": 42.0,
+      "calculated_score": 42,
       "risk_level": "MODERATE",
       "temperature_3day_avg": 36.8,
-      "rainfall_mm": 2.0,
-      "humidity_pct": 52.0,
+      "rainfall_mm": 2,
+      "humidity_pct": 52,
       "frontline_fever_cases": 0,
       "total_frontline_cases": 0,
       "shap_reasons": [
-        "Baseline summer temperature 36.8\u00b0C",
+        "Baseline summer temperature 36.8°C",
         "Precipitation deficit: 2.0mm rainfall"
       ],
       "shap_impacts": [
         {
           "feature": "Temperature 3-day avg",
-          "impact_percentage": 55.0,
-          "description": "Sustained heat at 36.8\u00b0C",
+          "impact_percentage": 55,
+          "description": "Sustained heat at 36.8°C",
           "direction": "increase"
         },
         {
           "feature": "Rainfall Deficit",
-          "impact_percentage": 20.0,
+          "impact_percentage": 20,
           "description": "Absence of pre-monsoon showers",
           "direction": "increase"
         }
@@ -1432,6 +1432,19 @@
     }
   },
   "reports": [
+    {
+      "id": "rep-git-1064",
+      "district_id": "khordha",
+      "village": "Bhubaneswar Capital Smart Grid",
+      "worker_name": "GitHub Autonomous Satellite Telemetry Agent",
+      "symptom": "Thermal Heat Pulse Ingestion (Open-Meteo)",
+      "cases": 3,
+      "severity": "Moderate",
+      "notes": "Autonomous 30-min weather pulse: 24.7°C, 94% RH, 0.1mm rain.",
+      "source": "real",
+      "timestamp": "2026-10-27T11:44:06.771Z",
+      "synced": 1
+    },
     {
       "id": "rep-98fb9d",
       "district_id": "khordha",
