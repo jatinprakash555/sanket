@@ -149,6 +149,8 @@ jobs:
       # 2. BUILD EXACT NEXT.JS DASHBOARD IDENTICAL TO LOCALHOST:3000
       - name: Build Next.js Static Export
         working-directory: sanket-frontend
+        env:
+          NEXT_PUBLIC_BASE_PATH: /sanket
         run: |
           npm ci
           npm run build
@@ -157,14 +159,16 @@ jobs:
       - name: Mirror Compiled Next.js Build to Root
         run: |
           cp -r sanket-frontend/out/* ./
-          echo "Successfully mirrored compiled Next.js export to root index.html and _next"
+          mkdir -p sanket
+          cp -r sanket-frontend/out/* sanket/
+          echo "Successfully mirrored compiled Next.js export to root index.html and sanket directory"
 
       # 4. AUTO-COMMIT TELEMETRY DB & ROOT BUILD
       - name: Auto-Commit & Push Live Build & Database
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/sanket_db.json sanket-backend/app/data/sanket_db.json sanket-frontend/public/data/sanket_db.json index.html _next 404.html kage.html || true
+          git add data/sanket_db.json sanket-backend/app/data/sanket_db.json sanket-frontend/public/data/sanket_db.json index.html _next sanket 404.html kage.html || true
           git status
           git diff-index --quiet HEAD || git commit -m "Auto-Sync SANKET Live Build & Database [skip ci]"
           git push || echo "Push skipped or up to date."

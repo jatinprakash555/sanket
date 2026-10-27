@@ -46,6 +46,7 @@ const IsroBhuvanMap = dynamic(() => import('@/components/IsroBhuvanMap'), {
 });
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH !== undefined ? process.env.NEXT_PUBLIC_BASE_PATH : (process.env.NODE_ENV === 'production' ? '/sanket' : '');
 
 type VisualizationMode = 'map' | 'vector' | 'globe3d' | 'anatomy3d' | 'hardware3d';
 
@@ -83,7 +84,10 @@ export default function Home() {
       // Backend unavailable / live static mode
     }
     try {
-      const fallback = await fetch(`/data/sanket_db.json?t=${Date.now()}`);
+      let fallback = await fetch(`${BASE_PATH}/data/sanket_db.json?t=${Date.now()}`);
+      if (!fallback.ok) {
+        fallback = await fetch(`./data/sanket_db.json?t=${Date.now()}`);
+      }
       if (fallback.ok) {
         const fileData = await fallback.json();
         if (fileData.districts) {
@@ -109,7 +113,10 @@ export default function Home() {
       // Fallback
     }
     try {
-      const fallback = await fetch('/data/odisha_districts.geojson');
+      let fallback = await fetch(`${BASE_PATH}/data/odisha_districts.geojson`);
+      if (!fallback.ok) {
+        fallback = await fetch('./data/odisha_districts.geojson');
+      }
       if (fallback.ok) {
         const data = await fallback.json();
         setGeoJsonData(data);
@@ -132,7 +139,10 @@ export default function Home() {
       // Backend unavailable
     }
     try {
-      const fallback = await fetch(`/data/sanket_db.json?t=${Date.now()}`);
+      let fallback = await fetch(`${BASE_PATH}/data/sanket_db.json?t=${Date.now()}`);
+      if (!fallback.ok) {
+        fallback = await fetch(`./data/sanket_db.json?t=${Date.now()}`);
+      }
       if (fallback.ok) {
         const fileData = await fallback.json();
         const found = fileData.districts && fileData.districts[id.toLowerCase()];

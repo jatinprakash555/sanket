@@ -49,6 +49,7 @@ interface GitDbRecord {
 }
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH !== undefined ? process.env.NEXT_PUBLIC_BASE_PATH : (process.env.NODE_ENV === 'production' ? '/sanket' : '');
 
 export const GitDatabaseManager: React.FC = () => {
   const [metadata, setMetadata] = useState<GitDbMetadata | null>(null);
@@ -91,7 +92,10 @@ export const GitDatabaseManager: React.FC = () => {
 
     // 3. Static Flat-File Fallback directly from /data/sanket_db.json
     try {
-      const staticRes = await fetch(`/data/sanket_db.json?t=${Date.now()}`);
+      let staticRes = await fetch(`${BASE_PATH}/data/sanket_db.json?t=${Date.now()}`);
+      if (!staticRes.ok) {
+        staticRes = await fetch(`./data/sanket_db.json?t=${Date.now()}`);
+      }
       if (staticRes.ok) {
         const fileDb = await staticRes.json();
         if (!metaLoaded && fileDb.metadata) {
@@ -155,7 +159,7 @@ export const GitDatabaseManager: React.FC = () => {
     } catch {
       // Fallback direct static download
       const link = document.createElement('a');
-      link.href = '/data/sanket_db.json';
+      link.href = `${BASE_PATH}/data/sanket_db.json`;
       link.download = 'sanket_db.json';
       document.body.appendChild(link);
       link.click();

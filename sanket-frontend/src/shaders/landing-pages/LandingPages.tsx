@@ -21,8 +21,10 @@ function TypographyPage({ recipe, title, sourceUrl, ...props }: LandingPageProps
   return <LandingPageFrame {...frame} customization={customization} title={title} sourceUrl={sourceUrl} />;
 }
 
-export function KageLandingPage(props: LandingPageProps & PageTypographyProps) { return <TypographyPage {...props} recipe={KAGE_TYPOGRAPHY} title="Kage — Where stillness reveals the unseen" sourceUrl="/landing-pages/kage.html" />; }
-export function CompleteShelfLandingPage(props: LandingPageProps & PageTypographyProps) { return <TypographyPage {...props} recipe={COMPLETE_SHELF_TYPOGRAPHY} title="Working Volumes — Seven Tools for Making" sourceUrl="/landing-pages/complete-shelf-v2.html" />; }
-export function BestsellersBookShowcase(props: LandingPageProps & PageTypographyProps) { return <TypographyPage {...props} recipe={BESTSELLERS_TYPOGRAPHY} title="Field Manuals — Tools for Thought" sourceUrl="/landing-pages/bestsellers-book-showcase.html" />; }
-export function MengToSketchbookLandingPage(props: LandingPageProps) { return <LandingPageFrame {...props} title="Meng To — Singapore Sketchbook" sourceUrl="/landing-pages/meng-to-sketchbook.html" />; }
-export function SylvaHero(props: LandingPageProps & PageTypographyProps) { return <TypographyPage {...props} recipe={SYLVA_TYPOGRAPHY} title="Sylva — Into the living world" sourceUrl="/landing-pages/inner-green-3d.html" />; }
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH !== undefined ? process.env.NEXT_PUBLIC_BASE_PATH : (process.env.NODE_ENV === 'production' ? '/sanket' : '');
+
+export function KageLandingPage(props: LandingPageProps & PageTypographyProps) { return <TypographyPage {...props} recipe={KAGE_TYPOGRAPHY} title="Kage — Where stillness reveals the unseen" sourceUrl={`${BASE_PATH}/landing-pages/kage.html`} />; }
+export function CompleteShelfLandingPage(props: LandingPageProps & PageTypographyProps) { return <TypographyPage {...props} recipe={COMPLETE_SHELF_TYPOGRAPHY} title="Working Volumes — Seven Tools for Making" sourceUrl={`${BASE_PATH}/landing-pages/complete-shelf-v2.html`} />; }
+export function BestsellersBookShowcase(props: LandingPageProps & PageTypographyProps) { return <TypographyPage {...props} recipe={BESTSELLERS_TYPOGRAPHY} title="Field Manuals — Tools for Thought" sourceUrl={`${BASE_PATH}/landing-pages/bestsellers-book-showcase.html`} />; }
+export function MengToSketchbookLandingPage(props: LandingPageProps) { return <LandingPageFrame {...props} title="Meng To — Singapore Sketchbook" sourceUrl={`${BASE_PATH}/landing-pages/meng-to-sketchbook.html`} />; }
+export function SylvaHero(props: LandingPageProps & PageTypographyProps) { return <TypographyPage {...props} recipe={SYLVA_TYPOGRAPHY} title="Sylva — Into the living world" sourceUrl={`${BASE_PATH}/landing-pages/inner-green-3d.html`} />; }

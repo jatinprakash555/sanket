@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="stylesheet" href="/landing-pages/secret-pathways-assets/fonts.css" />
+        <link rel="stylesheet" href={`${process.env.NEXT_PUBLIC_BASE_PATH !== undefined ? process.env.NEXT_PUBLIC_BASE_PATH : (process.env.NODE_ENV === 'production' ? '/sanket' : '')}/landing-pages/secret-pathways-assets/fonts.css`} />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

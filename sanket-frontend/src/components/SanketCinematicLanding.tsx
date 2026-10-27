@@ -19,6 +19,8 @@ import {
   Smartphone
 } from 'lucide-react';
 
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH !== undefined ? process.env.NEXT_PUBLIC_BASE_PATH : (process.env.NODE_ENV === 'production' ? '/sanket' : '');
+
 interface SanketCinematicLandingProps {
   onEnterDashboard: () => void;
   onOpenWorkerPwa?: () => void;
@@ -613,7 +615,7 @@ export const SanketCinematicLanding: React.FC<SanketCinematicLandingProps> = ({
             03 • Frontline Sync
           </button>
           <a
-            href="/kage"
+            href={`${BASE_PATH}/kage`}
             target="_blank"
             rel="noopener noreferrer"
             data-cursor
@@ -1104,7 +1106,7 @@ export const SanketCinematicLanding: React.FC<SanketCinematicLandingProps> = ({
           </div>
 
           <div className="flex items-center gap-6">
-            <a href="/kage" target="_blank" rel="noopener noreferrer" className="hover:text-[#dfe7e0] transition">
+            <a href={`${BASE_PATH}/kage`} target="_blank" rel="noopener noreferrer" className="hover:text-[#dfe7e0] transition">
               Original Kage Template
             </a>
             <button onClick={onEnterDashboard} className="hover:text-[#dfe7e0] transition">
