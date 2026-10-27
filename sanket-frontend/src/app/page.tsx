@@ -70,16 +70,29 @@ export default function Home() {
     setTimeout(() => setToastMessage(null), 4000);
   };
 
-  // 1. Fetch all districts from backend
+  // 1. Fetch all districts from backend, with static sanket_db fallback for live static pages
   const fetchDistricts = useCallback(async () => {
     try {
       const res = await fetch(`${API_BASE_URL}/api/v1/districts`);
       if (res.ok) {
         const data = await res.json();
         setDistricts(data);
+        return;
       }
     } catch {
-      // Backend starting
+      // Backend unavailable / live static mode
+    }
+    try {
+      const fallback = await fetch(`/data/sanket_db.json?t=${Date.now()}`);
+      if (fallback.ok) {
+        const fileData = await fallback.json();
+        if (fileData.districts) {
+          const list = Object.values(fileData.districts) as DistrictSummary[];
+          setDistricts(list);
+        }
+      }
+    } catch (err) {
+      console.warn('Fallback sanket_db fetch error:', err);
     }
   }, []);
 
@@ -106,16 +119,29 @@ export default function Home() {
     }
   }, []);
 
-  // 3. Fetch detailed district information for drawer
+  // 3. Fetch detailed district information for drawer, with static fallback
   const fetchDistrictDetail = useCallback(async (id: string, modelChoice: string = 'ensemble') => {
     try {
       const res = await fetch(`${API_BASE_URL}/api/v1/districts/${id}`);
       if (res.ok) {
         const data = await res.json();
         setSelectedDistrictDetail(data);
+        return;
       }
     } catch (err) {
-      console.error('Failed to load district detail:', err);
+      // Backend unavailable
+    }
+    try {
+      const fallback = await fetch(`/data/sanket_db.json?t=${Date.now()}`);
+      if (fallback.ok) {
+        const fileData = await fallback.json();
+        const found = fileData.districts && fileData.districts[id.toLowerCase()];
+        if (found) {
+          setSelectedDistrictDetail(found);
+        }
+      }
+    } catch (err) {
+      console.warn('Fallback district detail error:', err);
     }
   }, []);
 
@@ -133,6 +159,14 @@ export default function Home() {
     fetchDistricts();
     fetchGeoJSON();
     updateOfflineCount();
+
+    // Auto-polling every 30 seconds for live GitHub Actions database synchronization
+    const timer = setInterval(() => {
+      fetchDistricts();
+      updateOfflineCount();
+    }, 30000);
+
+    return () => clearInterval(timer);
   }, [fetchDistricts, fetchGeoJSON, updateOfflineCount]);
 
   useEffect(() => {
