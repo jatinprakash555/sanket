@@ -1,0 +1,1436 @@
+{
+  "metadata": {
+    "system": "SANKET Autonomous Git File Database Manager",
+    "version": "1.0.0",
+    "last_updated": "2026-10-27T05:13:19.391600",
+    "total_districts": 29,
+    "total_reports": 2,
+    "total_alerts": 0,
+    "retention_policy": "Auto-managed to max 200 recent entries",
+    "storage_mode": "100% Native GitHub Repository Storage (Zero External DB)",
+    "db_size_kb": "41.59 KB"
+  },
+  "districts": {
+    "delhi": {
+      "id": "delhi",
+      "name": "Delhi NCR",
+      "headquarters": "New Delhi",
+      "lat": 28.6139,
+      "lon": 77.209,
+      "population": 16787941,
+      "calculated_score": 91.2,
+      "risk_level": "CRITICAL",
+      "temperature_3day_avg": 45.4,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 28.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 45.4\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 45.4\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "churu": {
+      "id": "churu",
+      "name": "Churu (Thar Core)",
+      "headquarters": "Churu, Rajasthan",
+      "lat": 28.29,
+      "lon": 74.96,
+      "population": 2039547,
+      "calculated_score": 96.8,
+      "risk_level": "CRITICAL",
+      "temperature_3day_avg": 48.6,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 18.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 48.6\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 48.6\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "bikaner": {
+      "id": "bikaner",
+      "name": "Bikaner",
+      "headquarters": "Bikaner, Rajasthan",
+      "lat": 28.0229,
+      "lon": 73.3119,
+      "population": 2363937,
+      "calculated_score": 93.4,
+      "risk_level": "CRITICAL",
+      "temperature_3day_avg": 47.5,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 22.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 47.5\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 47.5\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "jaipur": {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "headquarters": "Jaipur, Rajasthan",
+      "lat": 26.9124,
+      "lon": 75.7873,
+      "population": 3073350,
+      "calculated_score": 79.5,
+      "risk_level": "HIGH",
+      "temperature_3day_avg": 44.2,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 30.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 44.2\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 44.2\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "gwalior": {
+      "id": "gwalior",
+      "name": "Gwalior",
+      "headquarters": "Gwalior, Madhya Pradesh",
+      "lat": 26.2183,
+      "lon": 78.1828,
+      "population": 2032036,
+      "calculated_score": 90.5,
+      "risk_level": "CRITICAL",
+      "temperature_3day_avg": 46.2,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 24.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 46.2\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 46.2\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "bhopal": {
+      "id": "bhopal",
+      "name": "Bhopal",
+      "headquarters": "Bhopal, Madhya Pradesh",
+      "lat": 23.2599,
+      "lon": 77.4126,
+      "population": 2371061,
+      "calculated_score": 74.5,
+      "risk_level": "HIGH",
+      "temperature_3day_avg": 43.5,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 32.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 43.5\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 43.5\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "prayagraj": {
+      "id": "prayagraj",
+      "name": "Prayagraj",
+      "headquarters": "Prayagraj, Uttar Pradesh",
+      "lat": 25.4358,
+      "lon": 81.8463,
+      "population": 5954391,
+      "calculated_score": 93.0,
+      "risk_level": "CRITICAL",
+      "temperature_3day_avg": 46.8,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 31.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 46.8\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 46.8\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "lucknow": {
+      "id": "lucknow",
+      "name": "Lucknow",
+      "headquarters": "Lucknow, Uttar Pradesh",
+      "lat": 26.8467,
+      "lon": 80.9462,
+      "population": 4589838,
+      "calculated_score": 78.2,
+      "risk_level": "HIGH",
+      "temperature_3day_avg": 44.0,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 40.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 44.0\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 44.0\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "gaya": {
+      "id": "gaya",
+      "name": "Gaya",
+      "headquarters": "Gaya, Bihar",
+      "lat": 24.7914,
+      "lon": 85.0002,
+      "population": 4391418,
+      "calculated_score": 88.6,
+      "risk_level": "CRITICAL",
+      "temperature_3day_avg": 45.8,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 35.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 45.8\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 45.8\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "patna": {
+      "id": "patna",
+      "name": "Patna",
+      "headquarters": "Patna, Bihar",
+      "lat": 25.5941,
+      "lon": 85.1376,
+      "population": 5838465,
+      "calculated_score": 77.0,
+      "risk_level": "HIGH",
+      "temperature_3day_avg": 43.8,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 45.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 43.8\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 43.8\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "nagpur": {
+      "id": "nagpur",
+      "name": "Nagpur (Vidarbha)",
+      "headquarters": "Nagpur, Maharashtra",
+      "lat": 21.1458,
+      "lon": 79.0882,
+      "population": 4653570,
+      "calculated_score": 92.0,
+      "risk_level": "CRITICAL",
+      "temperature_3day_avg": 46.5,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 26.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 46.5\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 46.5\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "chandrapur": {
+      "id": "chandrapur",
+      "name": "Chandrapur",
+      "headquarters": "Chandrapur, Maharashtra",
+      "lat": 19.9615,
+      "lon": 79.2961,
+      "population": 2204307,
+      "calculated_score": 94.5,
+      "risk_level": "CRITICAL",
+      "temperature_3day_avg": 47.2,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 25.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 47.2\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 47.2\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "ahmedabad": {
+      "id": "ahmedabad",
+      "name": "Ahmedabad",
+      "headquarters": "Ahmedabad, Gujarat",
+      "lat": 23.0225,
+      "lon": 72.5714,
+      "population": 5577940,
+      "calculated_score": 83.0,
+      "risk_level": "CRITICAL",
+      "temperature_3day_avg": 44.8,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 38.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 44.8\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 44.8\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "mumbai": {
+      "id": "mumbai",
+      "name": "Mumbai Suburban",
+      "headquarters": "Bandra, Maharashtra",
+      "lat": 19.076,
+      "lon": 72.8777,
+      "population": 9356962,
+      "calculated_score": 73.5,
+      "risk_level": "HIGH",
+      "temperature_3day_avg": 36.5,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 78.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 36.5\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 36.5\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "kolkata": {
+      "id": "kolkata",
+      "name": "Kolkata",
+      "headquarters": "Kolkata, West Bengal",
+      "lat": 22.5726,
+      "lon": 88.3639,
+      "population": 4496694,
+      "calculated_score": 76.5,
+      "risk_level": "HIGH",
+      "temperature_3day_avg": 40.2,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 72.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 40.2\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 40.2\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "jharsuguda": {
+      "id": "jharsuguda",
+      "name": "Jharsuguda",
+      "headquarters": "Jharsuguda, Odisha",
+      "lat": 21.85,
+      "lon": 84.0,
+      "population": 579505,
+      "calculated_score": 88.0,
+      "risk_level": "CRITICAL",
+      "temperature_3day_avg": 45.5,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 38.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 45.5\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 45.5\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "bolangir": {
+      "id": "bolangir",
+      "name": "Bolangir (Titilagarh)",
+      "headquarters": "Balangir, Odisha",
+      "lat": 20.7107,
+      "lon": 83.4862,
+      "population": 1648997,
+      "calculated_score": 91.0,
+      "risk_level": "CRITICAL",
+      "temperature_3day_avg": 46.2,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 36.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 46.2\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 46.2\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "sambalpur": {
+      "id": "sambalpur",
+      "name": "Sambalpur",
+      "headquarters": "Sambalpur, Odisha",
+      "lat": 21.4669,
+      "lon": 83.9812,
+      "population": 1041099,
+      "calculated_score": 82.0,
+      "risk_level": "CRITICAL",
+      "temperature_3day_avg": 44.8,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 40.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 44.8\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 44.8\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "khordha": {
+      "id": "khordha",
+      "name": "Khordha (Bhubaneswar)",
+      "headquarters": "Bhubaneswar, Odisha",
+      "lat": 20.1923,
+      "lon": 85.6179,
+      "population": 2251673,
+      "calculated_score": 64.0,
+      "risk_level": "HIGH",
+      "temperature_3day_avg": 42.5,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 68.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 42.5\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 42.5\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "cuttack": {
+      "id": "cuttack",
+      "name": "Cuttack",
+      "headquarters": "Cuttack, Odisha",
+      "lat": 20.4625,
+      "lon": 85.883,
+      "population": 2624470,
+      "calculated_score": 52.4,
+      "risk_level": "MODERATE",
+      "temperature_3day_avg": 41.2,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 65.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 41.2\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 41.2\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "sundargarh": {
+      "id": "sundargarh",
+      "name": "Sundargarh (Rourkela)",
+      "headquarters": "Rourkela, Odisha",
+      "lat": 22.1167,
+      "lon": 84.0333,
+      "population": 2093437,
+      "calculated_score": 80.5,
+      "risk_level": "CRITICAL",
+      "temperature_3day_avg": 44.2,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 42.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 44.2\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 44.2\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "mayurbhanj": {
+      "id": "mayurbhanj",
+      "name": "Mayurbhanj",
+      "headquarters": "Baripada, Odisha",
+      "lat": 21.9333,
+      "lon": 86.7333,
+      "population": 2519738,
+      "calculated_score": 72.5,
+      "risk_level": "HIGH",
+      "temperature_3day_avg": 43.1,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 55.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 43.1\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 43.1\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "puri": {
+      "id": "puri",
+      "name": "Puri",
+      "headquarters": "Puri, Odisha",
+      "lat": 19.8135,
+      "lon": 85.8312,
+      "population": 1698730,
+      "calculated_score": 38.0,
+      "risk_level": "MODERATE",
+      "temperature_3day_avg": 38.0,
+      "rainfall_mm": 2.5,
+      "humidity_pct": 78.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 38.0\u00b0C",
+        "Precipitation deficit: 2.5mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 38.0\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "balasore": {
+      "id": "balasore",
+      "name": "Balasore",
+      "headquarters": "Baleshwar, Odisha",
+      "lat": 21.4934,
+      "lon": 86.9135,
+      "population": 2320529,
+      "calculated_score": 48.5,
+      "risk_level": "MODERATE",
+      "temperature_3day_avg": 40.2,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 66.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 40.2\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 40.2\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "ramagundam": {
+      "id": "ramagundam",
+      "name": "Peddapalli (Ramagundam)",
+      "headquarters": "Ramagundam, Telangana",
+      "lat": 18.7557,
+      "lon": 79.5126,
+      "population": 795332,
+      "calculated_score": 94.0,
+      "risk_level": "CRITICAL",
+      "temperature_3day_avg": 47.0,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 32.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 47.0\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 47.0\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "hyderabad": {
+      "id": "hyderabad",
+      "name": "Hyderabad",
+      "headquarters": "Hyderabad, Telangana",
+      "lat": 17.385,
+      "lon": 78.4867,
+      "population": 6809970,
+      "calculated_score": 75.0,
+      "risk_level": "HIGH",
+      "temperature_3day_avg": 43.2,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 42.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 43.2\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 43.2\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "vijayawada": {
+      "id": "vijayawada",
+      "name": "NTR (Vijayawada)",
+      "headquarters": "Vijayawada, Andhra Pradesh",
+      "lat": 16.5062,
+      "lon": 80.648,
+      "population": 2218591,
+      "calculated_score": 89.0,
+      "risk_level": "CRITICAL",
+      "temperature_3day_avg": 45.2,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 58.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 45.2\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 45.2\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "chennai": {
+      "id": "chennai",
+      "name": "Chennai",
+      "headquarters": "Chennai, Tamil Nadu",
+      "lat": 13.0827,
+      "lon": 80.2707,
+      "population": 7088000,
+      "calculated_score": 78.0,
+      "risk_level": "HIGH",
+      "temperature_3day_avg": 41.8,
+      "rainfall_mm": 0.0,
+      "humidity_pct": 70.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 41.8\u00b0C",
+        "Precipitation deficit: 0.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 41.8\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    },
+    "bengaluru": {
+      "id": "bengaluru",
+      "name": "Bengaluru Urban",
+      "headquarters": "Bengaluru, Karnataka",
+      "lat": 12.9716,
+      "lon": 77.5946,
+      "population": 9621551,
+      "calculated_score": 42.0,
+      "risk_level": "MODERATE",
+      "temperature_3day_avg": 36.8,
+      "rainfall_mm": 2.0,
+      "humidity_pct": 52.0,
+      "frontline_fever_cases": 0,
+      "total_frontline_cases": 0,
+      "shap_reasons": [
+        "Baseline summer temperature 36.8\u00b0C",
+        "Precipitation deficit: 2.0mm rainfall"
+      ],
+      "shap_impacts": [
+        {
+          "feature": "Temperature 3-day avg",
+          "impact_percentage": 55.0,
+          "description": "Sustained heat at 36.8\u00b0C",
+          "direction": "increase"
+        },
+        {
+          "feature": "Rainfall Deficit",
+          "impact_percentage": 20.0,
+          "description": "Absence of pre-monsoon showers",
+          "direction": "increase"
+        }
+      ],
+      "action_cards": [
+        {
+          "role": "Health Officer",
+          "task": "Stock ORS & IV Fluids at Block PHCs",
+          "priority": "High",
+          "category": "Health"
+        },
+        {
+          "role": "Block Officer",
+          "task": "Activate localized drinking water booths (Jal Chhatra)",
+          "priority": "Moderate",
+          "category": "Logistics"
+        }
+      ],
+      "last_evaluated": "2026-10-27T05:13:19.391600"
+    }
+  },
+  "reports": [
+    {
+      "id": "rep-001",
+      "district_id": "cuttack",
+      "village": "Banki Goth",
+      "worker_name": "Mamata Sethi (ASHA)",
+      "symptom": "Heat Exhaustion / Cramps",
+      "cases": 4,
+      "severity": "Moderate",
+      "notes": "Farm workers working in afternoon heat",
+      "source": "real",
+      "timestamp": "2026-10-27T05:13:19.391600",
+      "synced": 1
+    },
+    {
+      "id": "rep-002",
+      "district_id": "khordha",
+      "village": "Jatni Basti",
+      "worker_name": "Priyanka Jena (ANM)",
+      "symptom": "High Fever & Dehydration",
+      "cases": 6,
+      "severity": "Moderate",
+      "notes": "Cluster of children with dehydration symptoms",
+      "source": "real",
+      "timestamp": "2026-10-27T05:13:19.391600",
+      "synced": 1
+    }
+  ],
+  "alerts": []
+}
